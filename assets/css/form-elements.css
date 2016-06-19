@@ -69,6 +69,6 @@ input.btn:hover { opacity: 0.6; color: #fff; }
 
 input.btn:active { outline: 0; opacity: 0.6; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 
-input.btn:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }
+input.btn:focus { outline: 0; opacity: 0.6; background: #3FC380; color: #fff; }
 
-input.btn:active:focus, input.btn.active:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }
+input.btn:active:focus, input.btn.active:focus { outline: 0; opacity: 0.6; background: #3FC380; color: #fff; }
