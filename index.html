@@ -206,24 +206,31 @@
                 <h2 class="section-title"><i class="fa fa-envelope"></i>Contact Me</h2>
                 
                 <div class="form-bottom">
-                    <form role="form" action=""http://formspree.io/ikramsyakir@gmail.com"" method="post" class="registration-form">
+                    <form role="form" action="http://formspree.io/ikramsyakir@gmail.com" method="post" class="contact-form">
+
+                        <input type="hidden" name="_subject" value="New message!" />
+                        <input type="text" name="_gotcha" style="display:none" />
+
                         <div class="form-group">
-                            <label class="sr-only" for="form-first-name">First name</label>
-                                <input type="text" name="form-first-name" placeholder="Name" class="form-first-name form-control" id="form-first-name" required>
+                            <label class="sr-only" for="form-name">Name</label>
+                                <input type="text" name="form-name" placeholder="Name" class="form-name form-control" id="Name" required>
                         </div>
-                        <div class="form-group">
-                            <label class="sr-only" for="form-last-name">Last name</label>
-                                <input type="text" name="form-last-name" placeholder="Email" class="form-last-name form-control" id="form-last-name" required>
-                        </div>
+
                         <div class="form-group">
                             <label class="sr-only" for="form-email">Email</label>
-                                <input type="text" name="form-email" placeholder="Phone" class="form-email form-control" id="form-email">
+                                <input type="email" name="_replyto" placeholder="Email" class="form-email form-control" id="Email" required>
                         </div>
+
                         <div class="form-group">
-                            <label class="sr-only" for="form-about-yourself">About yourself</label>
-                                <textarea name="form-about-yourself" placeholder="Message" 
-                                                        class="form-about-yourself form-control" id="form-about-yourself" required></textarea>
+                            <label class="sr-only" for="form-phone">Phone</label>
+                                <input type="number" name="form-phone" placeholder="Phone" class="form-phone form-control" id="Phone">
                         </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="form-message">Message</label>
+                                <textarea name="form-message" placeholder="Message" class="form-message form-control" id="Message" required></textarea>
+                        </div>
+
                             <input type="submit" class="btn"></input>
                     </form>
                 </div>
