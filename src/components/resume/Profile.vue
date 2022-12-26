@@ -54,7 +54,7 @@ export default {
     return {
       name: "Ikram Syakir",
       position: "Software Engineer",
-      picture: "src/assets/img/picture.png",
+      picture: "/img/picture.png",
       contact: {
         email: "ikramsyakir@gmail.com",
         twitter: "https://twitter.com/IkramSyakir",
@@ -62,7 +62,7 @@ export default {
         github: "https://github.com/ikramsyakir",
         linkedin: "https://www.linkedin.com/in/ikramsyakir",
       },
-      background: "src/assets/img/background.jpg",
+      background: "/img/background.jpg",
     };
   },
 };

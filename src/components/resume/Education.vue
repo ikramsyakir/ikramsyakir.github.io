@@ -44,7 +44,7 @@ export default {
     return {
       items: [
         {
-          logo: "src/assets/img/logo/uitm.png",
+          logo: "/img/logo/uitm.png",
           name: "UiTM Melaka",
           education:
             "Bachelor of Information Technology (Hons.) Information System Engineering",
@@ -52,7 +52,7 @@ export default {
           duration: "2017 - 2020",
         },
         {
-          logo: "src/assets/img/logo/politeknik.png",
+          logo: "/img/logo/politeknik.png",
           name: "Polytechnic Sultan Mizan Zainal Abidin",
           education: "Diploma in Information Technology (Programming)",
           location:

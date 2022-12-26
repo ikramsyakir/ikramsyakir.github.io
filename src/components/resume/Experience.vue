@@ -61,7 +61,7 @@ export default {
     return {
       items: [
         {
-          company_logo: "src/assets/img/logo/aidan.png",
+          company_logo: "/img/logo/aidan.png",
           company_name: "Aidan Technologies Sdn Bhd",
           company_initial_name: "AT",
           position: "Software Engineer",
@@ -86,7 +86,7 @@ export default {
           ],
         },
         {
-          company_logo: "src/assets/img/logo/dbp.jpeg",
+          company_logo: "/img/logo/dbp.jpeg",
           company_name: "Dewan Bahasa dan Pustaka",
           company_initial_name: "DB",
           position: "Intern",
