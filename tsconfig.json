@@ -5,7 +5,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "allowJs": true,
+    "types": [
+      "vite-plugin-pwa/client"
+    ]
   },
 
   "references": [
