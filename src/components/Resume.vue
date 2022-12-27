@@ -6,7 +6,7 @@
       class="max-w-4xl mx-auto flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 min-w-[250px] mb-5"
     >
       <div
-        class="flex flex-col space-y-4 lg:min-w-[280px] md:flex-row md:space-y-0 md:space-x-4 lg:flex-col lg:space-y-4 lg:space-x-0"
+        class="flex flex-col space-y-4 lg:min-w-[280px] lg:flex-col lg:space-y-4 lg:space-x-0"
       >
         <Profile />
         <Skills />

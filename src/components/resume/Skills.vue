@@ -12,7 +12,7 @@
         >
           <div class="w-full">
             <span class="font-semibold">{{ category.name }}</span>
-            <div class="flex flex-wrap md:flex-col lg:flex-row mt-3">
+            <div class="flex flex-wrap lg:flex-row mt-3">
               <div
                 class="btn btn-xs normal-case cursor-default mb-2 mr-2"
                 v-for="(item, index) in category.items"

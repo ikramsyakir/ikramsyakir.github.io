@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded-xl bg-base-100 shadow-xl overflow-hidden w-full md:w-1/3 md:min-w-[320px] lg:min-w-fit lg:w-full md:grow lg:grow-0"
+    class="rounded-xl bg-base-100 shadow-xl overflow-hidden w-full lg:min-w-fit lg:w-full md:grow lg:grow-0"
   >
     <div
       class="h-32 bg-cover bg-center"
