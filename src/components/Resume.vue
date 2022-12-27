@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen p-2 md:p-5 md:pb-2 overflow-scroll flex flex-col justify-between"
+    class="min-h-screen p-2 md:p-5 md:pb-2 flex flex-col justify-between"
   >
     <div
       class="max-w-4xl mx-auto flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 min-w-[250px] mb-5"
