@@ -42,6 +42,7 @@ export default {
             "MySQL",
             "MariaDB",
             "RESTful API",
+            "Java",
             "Redis",
             "Nginx",
             "Apache",
@@ -57,6 +58,7 @@ export default {
             "Laravel",
             "Vue.js",
             "Bootstrap",
+            "Spring Boot",
             "TailwindCSS",
             "Yii2",
             "Flutter",
@@ -64,8 +66,8 @@ export default {
           ],
         },
         {
-          name: "Version Control",
-          items: ["GitHub", "GitLab"],
+          name: "Version Control & CI/CD",
+          items: ["GitHub", "GitLab", "GitHub Actions"],
         },
       ],
     };
